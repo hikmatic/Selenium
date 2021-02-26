@@ -15,6 +15,7 @@ price = driver.find_elements_by_css_selector(".listicle-item h3")
 
 for x in price:
     print(x.text)
+    print("hi")
 
 
 
